@@ -1,0 +1,5 @@
+# netd.te
+
+allow netd proc:dir { add_name };
+allow  netd proc:file { create };
+allow netd proc:filesystem {associate};
